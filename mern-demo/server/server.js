@@ -17,6 +17,8 @@ mongoose
   .connect(process.env.MONGODB_URI)
   .then(() => {
     console.log("Đã kết nối MongoDB Atlas thành công!");
+    console.log("Database đang sử dụng:", mongoose.connection.name);
+    console.log("Collection:", mongoose.connection.collection("students").name);
   })
   .catch((error) => {
     console.error("Lỗi kết nối MongoDB:", error.message);
