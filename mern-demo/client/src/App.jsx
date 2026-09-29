@@ -161,8 +161,8 @@ function App() {
               <div className="brand-icon">🎓</div>
 
               <div>
-                <h1>Student Management</h1>
-                <p>Quản lý thông tin sinh viên</p>
+                <h1>Student Management System v2.0</h1>
+                <p>Quản lý thông tin sinh viên - Docker Image 2.0</p>
               </div>
             </div>
           </div>
