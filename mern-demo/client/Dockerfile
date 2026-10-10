@@ -5,6 +5,10 @@ COPY package.json package-lock.json ./
 RUN npm install
 
 COPY . .
+
+ARG VITE_API_URL=https://mern-backend-239754.onrender.com
+ENV VITE_API_URL=$VITE_API_URL
+
 RUN npm run build
 
 RUN npm install -g serve
