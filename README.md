@@ -1,2 +1,3 @@
 # cloud Computing Laboratory|nStudent Name:\Student ID:
-Class:
+Name: Trần Phát Đạt
+Student ID: 239754

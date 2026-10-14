@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 
-const API_URL = `${import.meta.env.VITE_API_URL || "http://localhost:5000"}/api/students`;
+const API_URL = "/api/students";
 
   //"http://localhost:5000/api/students"
 function App() {
@@ -162,7 +162,7 @@ function App() {
 
               <div>
                 <h1>Student Management System v2.0</h1>
-                <p>Quản lý thông tin sinh viên - Docker Image 2.0</p>
+                <p>Phiên bản 2.0 - Production Cloud PaaS (Auto-Deployed)</p>
               </div>
             </div>
           </div>
@@ -399,6 +399,9 @@ function App() {
       <footer>
         <p>
           Student Management System • React + Express + MongoDB Atlas
+        </p>
+        <p>
+          Phiên bản 2.0 - Production Cloud PaaS (Auto-Deployed)
         </p>
       </footer>
     </div>
